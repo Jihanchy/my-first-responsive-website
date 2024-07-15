@@ -32,6 +32,17 @@
     border: none;
     padding: 20px 24px;
   }
+  main{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  main >section{
+    margin-top: ;
+  }
+  header{
+    max-width: 1920px;
+    margin: 0 auto;
+  }
 
   /* header styles */
 
@@ -56,7 +67,7 @@
     font-weight: 500;
   }
 
-.nav-bar, .banner{
+.nav-bar,.banner{
     max-width: 1440px;
     margin: 0 auto;
   }
@@ -81,11 +92,25 @@
     width: 100%;
 }
 
+.feature{
+   align-items: center;
+}
 
+.team-image-container{
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+  gap: 24px;
+}
+
+.feature-content{
+  margin-left: 75px;
+
+}
 
 @media screen and (max-width:576px) {
     .nav-bar, .nav-links{
         flex-direction: column;
+        gap: 10px;
     }
     .banner-title{
       font-size: 2.8rem;
