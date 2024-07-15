@@ -22,6 +22,9 @@
   .bg-light{
     background-color: rgba(255, 144, 14, 0.10);
   }
+  #text-primary{
+    color: #FF900E;
+  }
 
   .btn-primary{
     background-color: #FF900E;
@@ -37,9 +40,9 @@
     margin: 0 auto;
   }
   main >section{
-    margin-top: ;
+    margin-top:130px ;
   }
-  header{
+  body{
     max-width: 1920px;
     margin: 0 auto;
   }
@@ -92,6 +95,7 @@
     width: 100%;
 }
 
+/* feature related styles */
 .feature{
    align-items: center;
 }
@@ -103,18 +107,41 @@
 }
 
 .feature-content{
-  margin-left: 75px;
+  margin-left: 80px;
+  max-width: 537px;
 
 }
+.feature-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.quick-list{
+   font-weight: 500;
+}
+.feature-description{
+    font-size: 1rem; 
+  font-weight: 400;
+     margin-bottom: 30px;
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width:576px) {
-    .nav-bar, .nav-links{
+    .nav-bar, .nav-links, .feature{
         flex-direction: column;
         gap: 10px;
     }
     .banner-title{
       font-size: 2.8rem;
     }
-
+    .team-image-container{
+      grid-template-columns: repeat(1, 1fr);
+    }
     
 }
