@@ -107,7 +107,7 @@
 }
 
 .feature-content{
-  margin-left: 80px;
+  margin-left: 130px;
   max-width: 537px;
 
 }
@@ -133,7 +133,9 @@
 
 
 @media screen and (max-width:576px) {
-    .nav-bar, .nav-links, .feature{
+    .nav-bar, 
+    .nav-links, 
+    .feature{
         flex-direction: column;
         gap: 10px;
     }
@@ -143,5 +145,7 @@
     .team-image-container{
       grid-template-columns: repeat(1, 1fr);
     }
-    
+    .feature-content{
+      margin-left: 20px;
+    }
 }
