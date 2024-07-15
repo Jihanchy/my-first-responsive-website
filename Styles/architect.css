@@ -147,5 +147,16 @@
     }
     .feature-content{
       margin-left: 20px;
+      text-align: center;
     }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+  .feature{
+    flex-direction: column;
+  }
+  .feature-content{
+    margin: 50px auto;
+  }
+  
 }
