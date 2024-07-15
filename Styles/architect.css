@@ -101,7 +101,7 @@
 }
 
 /* feature related styles */
-.feature{
+.our-feature{
    align-items: center;
 }
 
@@ -125,6 +125,30 @@
      margin-bottom: 30px;
 }
 
+/* features you will love and enjoy */
+.features{
+  display: flex;
+  gap: 140px;
+}
+
+.feature-section-title{
+  border-left: 8px solid #FF900E;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.feature-title{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.feature-card{
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 35px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+/* some fact related styles */
 .facts-container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
